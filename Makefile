@@ -1,4 +1,4 @@
-TARGET := hello.elf
+TARGET := clock.elf
 BOARD := STM32F103xB
 
 BUILD_DIR := ./build
