@@ -19,7 +19,7 @@ static constexpr u32 BISTABLE_PIN = 9;
 static constexpr u32 FREQUENCY = 2;
 static constexpr u32 HALF_PERIOD_MS = 1000 / (2 * FREQUENCY);
 
-static constexpr u32 MONO_DELAY = 250;
+static constexpr u32 MONO_DELAY = 100;
 
 static volatile u32 timer = 0;
 static volatile ClockMode clock_mode = ClockMode_Astable;
